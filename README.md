@@ -21,3 +21,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python main.py
+```
+
+## Experiments
+I conducted several experiments to better understand how logistic regression behaves:
+- The effect of different learning rates on convergence.
+- The impact of feature scaling in multi-featue input.
+- Model behavior under extreme parameter updates.
+
+See details in: `experiments/lr_experiments.md`
