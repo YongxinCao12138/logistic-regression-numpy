@@ -3,6 +3,8 @@ This project implements logistic regression from scratch using NumPy, without us
 
 The goal is to understand how a **binary classification model** works, including prediction, error calculation, **gradient-based parameter updates**, and the effect of **learning rate** and **feature scaling**.
 
+This project focuses not only on implementation, but also on understanding how gradients are influenced by both prediction error and input features.
+
 ## What I learn
 - How logistic regression turns weighted features into probabilities
 - Why gradients are computed from error and input features
